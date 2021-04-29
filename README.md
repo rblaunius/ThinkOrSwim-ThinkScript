@@ -18,7 +18,7 @@ This will show you every trade you made on the stock or option and visually show
 
 ## Detail View _(Advanced Ft. Version)_:   [https://tos.mx/S8raoII](https://tos.mx/S8raoII) ##
 
-![alt text](https://imgur.com/SkYCoT9)
+![alt text](https://imgur.com/SkYCoT9.png)
 
 This study goes underneath the chart, and works best if used on an option chart. It shows you the break-even, greeks, volume for today, etc. in an easy view.
 
