@@ -17,10 +17,17 @@ def purchasePrice =
     else 0.00;
 
 # Plot
-entryPrice = 
-    if (purchasePrice > 0.01) then
-        (purchasePrice)
-    else (Double.NaN);
+entryPrice = if isStock then
+                (if (purchasePrice > 0.01) then
+                    purchasePrice
+                 else (Double.NaN))
+             else if !isStock then
+                (if (purchasePrice > 0.01) then
+                    purchasePrice/100
+                 else (Double.NaN))
+             else 0             
+;
+
 entryPrice.AssignValueColor(
     if (close < purchasePrice) then
         Color.DOWNTICK 
@@ -42,7 +49,7 @@ AddLabel(isOwned,
     else if profitloss > 0 then "P/L: +" + AsDollars(profitloss)
     else "P/L: " + AsDollars(profitloss)
 , if profitloss > 0 then Color.UPTICK 
-  else if profitloss == 0 then Color.WHITE 
+  else if profitloss == 0 then Color.gray 
   else Color.DOWNTICK);
 
 #PL %:
@@ -51,9 +58,9 @@ AddLabel(isOwned,
     if perc > 0 then ("+" + perc + "%")
     else if perc < 0 then ("-" + perc + "%")
     else (perc + "%")
-, if profitloss < 0 then Color.RED 
-  else if profitloss > 0 then Color.GREEN 
-  else Color.WHITE);
+, if profitloss < 0 then Color.downtick
+  else if profitloss > 0 then Color.Uptick
+  else Color.gray);
 
 #PL/shr
 AddLabel(isOwned and isStock, 

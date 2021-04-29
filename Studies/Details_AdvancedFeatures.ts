@@ -1,7 +1,7 @@
 #Hint: Put this on any option chart and see details on any option or stock. The graph will only show if the study is on an options chart.
 
 declare lower;
-plot underlying;
+plot entry;
 
 #Inputs
 input showGreeks = yes;
@@ -22,9 +22,10 @@ def breakevenOWN = if condPUT then (strike - purchaseprice)
 def breakevenNOW = if condPUT then (strike - close)
                     else (strike + close);
 
-# Plots
-underlying = if showUnderlying and !isStock then close(GetUnderlyingSymbol()) else Double.NaN;
-underlying.AssignValueColor(
+# PLOT
+entry = if showUnderlying and !isStock then close(GetUnderlyingSymbol()) 
+             else Double.NaN;
+entry.AssignValueColor(
     if (purchaseprice < close) then
         (Color.UPTICK)
     else if (purchaseprice > close) then 
@@ -32,7 +33,7 @@ underlying.AssignValueColor(
     else
         (Color.gray)
 );
-underlying.SetDefaultColor(Color.gray);
+entry.SetDefaultColor(Color.gray);
 
 #Check if you have a position or not
 def isOpen = if qty > 0 then yes 
@@ -72,5 +73,5 @@ AddLabel(!isStock,
 
 AddLabel(!isStock and showGreeks,
          "delta: " + Delta() + "    gamma: " + Gamma() + "    theta: " + Theta() + "    vega: " + Vega(),
-         Color.LIME
+         Color.Gray
 );
