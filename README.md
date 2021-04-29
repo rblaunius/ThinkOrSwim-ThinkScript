@@ -1,4 +1,4 @@
-##How to load into TOS##
+# How to load into TOS #
 ###No Download Needed###
 
 1. Copy the **link** to the study that you want to import (below)
