@@ -29,8 +29,11 @@ This study goes underneath the chart, and works best if used on an option chart.
 This study is basically a manual version of the monitor tab for whatever stock the study is being shown on. Manual? Well, unless TDA approved your account for "Advanced Features," you won't be able to access any of your portfolio data (including trades) inside of custom chart studies. This study lets you manually enter any open position to be visualized on any chart. This way, you don't have to always switch back to the monitor tab to view your P/L, basis, etc. Also, if you have multiple accounts in other brokers, this study lets you add your other positions (per stock) in thinkorswim - on the chart. On top of that, if, say you made a realized loss on the stock in the past, it will show you what your "adjusted trade price" is, taking into account how many shares you have open.
 More info on how to use it [here](https://www.reddit.com/r/thinkorswim/comments/mj5pbf/costbasis_advanced_thinkscript/).
 
-###Tips###
+# Tips #
 "Advanced Features" studies will only work if the account has advanced features enabled (it should be enabled if the account is a forex account). 
 In my case, since I have a normal Cash account, I had to call TDA _(800-669-3900)_ and get approved.
 
 Once you import the studies, if you want to change the default settings, edit the study then click "Save as Default" - this will make sure that every time you pull up the study (on any quote), it will start with your default settings.
+
+https://www.reddit.com/r/thinkorswim/comments/mj5pbf/costbasis_advanced_thinkscript/
+https://www.reddit.com/r/thinkorswim/comments/mie40x/costbasis_thinkscript/
