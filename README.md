@@ -1,4 +1,5 @@
-# How to load in TOS #
+# How to Load Studies in ThinkOrSwim # 
+_(without downloading anything)_
 
 1. Copy the **link** to the study that you want to import (below)
 2. Open TOS and click Setup at the top right
