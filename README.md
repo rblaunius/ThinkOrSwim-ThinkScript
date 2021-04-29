@@ -10,26 +10,20 @@
 9. Click Studies > Edit Studies... (or Ctrl + E)
 10. On the left, search for the study you just imported. Select it, then click "add selected" at the bottom left.
 
-<<<<<<< HEAD
 #Cost Basis _(Advanced Ft. Version)_#
 [https://tos.mx/uMStND8](https://tos.mx/uMStND8)
-=======
+
 ## Cost Basis _(Advanced Ft. Version)_ ##
 [https://tos.mx/yVFoo3m](https://tos.mx/yVFoo3m)
->>>>>>> e48db6035e8811f742295b5376421c9a28e57dc2
 
 This will show you every trade you made on the stock or option and visually show you your position. If you pair it with a 200 SMA (like the one [here](https://preview.redd.it/hwyby2bf58r61.png?width=1237&format=png&auto=webp&s=57ec1a84d3395d9ebc064bbe9dc8f6a5ca17aa2f)), the P/L and "buy/sell" indicators are even more apparent.)
 
 
-<<<<<<< HEAD
 #Detail View _(Advanced Ft. Version)_#
 [https://tos.mx/KSTiqk3](https://tos.mx/KSTiqk3)
 
-=======
 ## Detail View _(Advanced Ft. Version)_ ##
 [https://tos.mx/UvjSSHZ](https://tos.mx/UvjSSHZ)
->>>>>>> e48db6035e8811f742295b5376421c9a28e57dc2
-
 
 This study goes underneath the chart, and works best if used on an option chart. It shows you the break-even, greeks, volume for today, etc. in an easy view.
 
