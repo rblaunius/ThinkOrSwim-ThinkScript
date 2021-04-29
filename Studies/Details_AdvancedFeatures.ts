@@ -30,9 +30,9 @@ underlying.AssignValueColor(
     else if (purchaseprice > close) then 
         (Color.DOWNTICK)
     else
-        (Color.WHITE)
+        (Color.gray)
 );
-underlying.SetDefaultColor(Color.WHITE);
+underlying.SetDefaultColor(Color.gray);
 
 #Check if you have a position or not
 def isOpen = if qty > 0 then yes 
@@ -51,8 +51,8 @@ def oIntToday = open_interest;
 AddLabel(yes, GetSymbol(), Color.GRAY);
 AddLabel(yes, "volume today: " + volToday, Color.GRAY);
 AddLabel(isClose, "No Position", Color.GRAY);
-AddLabel(isOpen, "BOT" + qty + "@" + AsDollars(purchaseprice), Color.WHITE);
-AddLabel(yes, if !isStock then "now: " + AsDollars(close * 100) + "/contract" else "now: " + AsDollars(close) + "/shr", if pl < 0 then Color.DOWNTICK else if pl > 0 then Color.UPTICK else Color.WHITE);
+AddLabel(isOpen, "BOT" + qty + "@" + AsDollars(purchaseprice), Color.gray);
+AddLabel(yes, if !isStock then "now: " + AsDollars(close * 100) + "/contract" else "now: " + AsDollars(close) + "/shr", if pl < 0 then Color.DOWNTICK else if pl > 0 then Color.UPTICK else Color.gray);
 
 #Option Labels
 
@@ -60,14 +60,14 @@ AddLabel(!isStock and isOpen,
          "break-even (exp): " + AsDollars(breakevenOWN),
          if pl > 0 then Color.UPTICK
          else if pl < 0 then Color.DOWNTICK
-         else Color.WHITE
+         else Color.gray
 );
 
 AddLabel(!isStock,
          "break-even (now): " + AsDollars(breakevenNOW),
          if pl > 0 then Color.UPTICK
          else if pl < 0 then Color.DOWNTICK
-         else Color.WHITE
+         else Color.Gray
 );
 
 AddLabel(!isStock and showGreeks,

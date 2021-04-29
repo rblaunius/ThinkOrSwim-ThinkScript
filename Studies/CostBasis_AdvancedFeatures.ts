@@ -4,7 +4,7 @@ plot entryPrice;
 
 # User Inputs (defaults)
 input pLType = ProfitLossMode.COST_BASIS;
-input showColorFills = no;
+input showColorFills = yes;
 
 # Position Details variables
 def qty = GetQuantity();
@@ -20,7 +20,7 @@ def purchasePrice =
 entryPrice = 
     if (purchasePrice > 0.01) then
         (purchasePrice)
-    else (Double.E);
+    else (Double.NaN);
 entryPrice.AssignValueColor(
     if (close < purchasePrice) then
         Color.DOWNTICK 
@@ -33,7 +33,7 @@ AddLabel(yes, GetSymbol(), Color.GRAY);
 
 #BASIS
 def basis = qty * entryPrice; 
-AddLabel(isOwned, ("BOT"+qty + "@" + AsDollars(purchasePrice) + " (" + AsDollars(basis) + ")"), Color.WHITE);
+AddLabel(isOwned, ("BOT"+qty + "@" + AsDollars(purchasePrice) + " (" + AsDollars(basis) + ")"), Color.GRAY);
 
 #PL $:
 def profitloss = GetOpenPL (GetSymbol(), pLType);
