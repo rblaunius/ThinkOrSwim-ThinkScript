@@ -23,8 +23,6 @@ This study goes under the chart (lower), and works best if used on an option cha
 
 ![alt text](https://i.imgur.com/eysKd83.png)
 
-![alt text](https://i.imgur.com/4IaLRWq.png)
-**Detail view for a stock you already own**
 _Tip: If you press "Ctrl + E" while in a chart, then right click on this study, then click on "View Sources..." and you can see/edit the code. _
 
 
