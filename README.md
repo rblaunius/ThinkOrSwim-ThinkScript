@@ -38,7 +38,9 @@ More info on how to use it [here](https://www.reddit.com/r/thinkorswim/comments/
 "Advanced Features" studies will only work if the account has advanced features enabled (it should be enabled if the account is a forex account). 
 In my case, since I have a normal Cash account, I had to call TDA _(800-669-3900)_ and get approved.
 
-Once you import the studies, if you want to change the default settings, edit the study then click "Save as Default" - this will make sure that every time you pull up the study (on any quote), it will start with your default settings.
+Once you import the studies, if you want to change the default settings, edit the study then click "Save as Default" - this will make sure that every time you pull up the study (on any quote), the study will be loaded on every chart.
 
+### Resources ###
+https://tlc.thinkorswim.com/center/reference/thinkScript
 https://www.reddit.com/r/thinkorswim/comments/mj5pbf/costbasis_advanced_thinkscript/
 https://www.reddit.com/r/thinkorswim/comments/mie40x/costbasis_thinkscript/
