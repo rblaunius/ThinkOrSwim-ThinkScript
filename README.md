@@ -11,14 +11,14 @@ _(without downloading anything)_
 9. Click Studies > Edit Studies... (or Ctrl + E)
 10. On the left, search for the study you just imported. Select it, then click "add selected" at the bottom left.
 
-# Cost Basis _(Advanced Ft. Version)_:   [https://tos.mx/aRCJzcq](https://tos.mx/aRCJzcq) #
+# Cost Basis _(Advanced Ft. Version)_:   [https://tos.mx/uu1LgB3](https://tos.mx/uu1LgB3) #
 **Before using this study, make sure your account has Advanced Features Enabled.**
 
 This study will show you every trade you made on the stock or option and visually show you your position, automatically.
 
 ![alt text](https://i.imgur.com/0d7lxCF.png)
 
-# Detail View _(Advanced Ft. Version)_:   [https://tos.mx/S8raoII](https://tos.mx/S8raoII) #
+# Detail View _(Advanced Ft. Version)_:   [https://tos.mx/gwOBP6T](https://tos.mx/gwOBP6T) #
 This study goes under the chart (lower), and works best if used on an option chart, but is adaptive depending on the type of security. This just has extra information on the stock/option if you want to view it. Sometimes it's useful, other times it just gets in the way. It's especially helpful when showing you the break-evens, greeks, and a snapshot of the volume/open int.
 
 ![alt text](https://i.imgur.com/eysKd83.png)
