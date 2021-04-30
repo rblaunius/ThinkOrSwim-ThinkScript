@@ -19,9 +19,9 @@ This study will show you every trade you made on the stock or option and visuall
 ![alt text](https://i.imgur.com/0d7lxCF.png)
 
 # Detail View _(Advanced Ft. Version)_:   [https://tos.mx/S8raoII](https://tos.mx/S8raoII) #
-This study goes under the chart (lower), and works best if used on an option chart. It shows you the break-evens, greeks, volume for today, etc.
+This study goes under the chart (lower), and works best if used on an option chart, but is adaptive depending on the type of security. This just has extra information on the stock/option if you want to view it. Sometimes it's useful, other times it just gets in the way. It's especially helpful when showing you the break-evens, greeks, and a snapshot of the volume/open int.
 
-![alt text](https://imgur.com/SkYCoT9.png)
+![alt text](https://i.imgur.com/4IaLRWq.png)
 
 # Cost Basis _(Manual Version)_:   [https://tos.mx/77x06I0](https://tos.mx/77x06I0) #
 This study is meant for those who dont have Advanced features enabled (default cash/margin accounts)
