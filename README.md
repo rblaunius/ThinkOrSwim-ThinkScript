@@ -24,6 +24,8 @@ This study goes under the chart (lower), and works best if used on an option cha
 ![alt text](https://imgur.com/SkYCoT9.png)
 
 # Cost Basis _(Manual Version)_:   [https://tos.mx/77x06I0](https://tos.mx/77x06I0) #
+This study is meant for those who dont have Advanced features enabled (default cash/margin accounts)
+
 This study lets you manually enter any open position to be visualized on any chart. This way, you don't have to always switch back to the monitor tab to view your P/L, basis, etc. Also, if you have multiple accounts in other brokers, this study lets you add your other positions (per stock) in thinkorswim - on the chart. On top of that, if, say you made a realized loss on the stock in the past, it will show you what your "adjusted trade price" is, taking into account how many shares you have open.
 More info on how to use it [here](https://www.reddit.com/r/thinkorswim/comments/mj5pbf/costbasis_advanced_thinkscript/).
 
