@@ -45,12 +45,12 @@ def basis = if isStock then (qty * purchaseprice)
             else (100 * qty * purchaseprice);
 
 #Volume Change calcluations
-def volToday = volume;
+def volume10min = volume;
 def oIntToday = open_interest;
 
 #Shared Labels
 AddLabel(yes, GetSymbol(), Color.GRAY);
-AddLabel(yes, "volume today: " + volToday, Color.GRAY);
+AddLabel(yes,"volume: " + volume10min, Color.GRAY);
 AddLabel(isClose, "No Position", Color.GRAY);
 AddLabel(isOpen, "BOT" + qty + "@" + AsDollars(purchaseprice), Color.gray);
 AddLabel(yes, if !isStock then "now: " + AsDollars(close * 100) + "/contract" else "now: " + AsDollars(close) + "/shr", if pl < 0 then Color.DOWNTICK else if pl > 0 then Color.UPTICK else Color.gray);
