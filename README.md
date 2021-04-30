@@ -14,7 +14,7 @@ _(without downloading anything)_
 # Cost Basis _(Advanced Ft. Version)_:   [https://tos.mx/aRCJzcq](https://tos.mx/aRCJzcq) #
 **Before using this study, make sure your account has Advanced Features Enabled.**
 
-This study will show you every trade you made on the stock or option and visually show you your position, automatically. If you pair it with a 200 SMA (like this [here](https://preview.redd.it/hwyby2bf58r61.png?width=1237&format=png&auto=webp&s=57ec1a84d3395d9ebc064bbe9dc8f6a5ca17aa2f)), the P/L and "buy/sell" indicators are even more apparent.)
+This study will show you every trade you made on the stock or option and visually show you your position, automatically. If you pair it with a 200 SMA (like this [here](https://preview.redd.it/hwyby2bf58r61.png?width=1237&format=png&auto=webp&s=57ec1a84d3395d9ebc064bbe9dc8f6a5ca17aa2f)), the P/L and "buy/sell" indicators are even more apparent.
 
 ![alt text](https://i.imgur.com/0d7lxCF.png)
 
