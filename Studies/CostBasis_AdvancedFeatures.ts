@@ -40,14 +40,14 @@ AddLabel(yes, GetSymbol(), Color.GRAY);
 
 #BASIS
 def basis = qty * entryPrice; 
-AddLabel(isOwned, ("BOT"+qty + "@" + AsDollars(purchasePrice) + " (" + AsDollars(basis) + ")"), Color.GRAY);
+AddLabel(isOwned, (qty + "@" + AsDollars(purchasePrice) + " (" + AsDollars(basis) + ")"), Color.GRAY);
 
 #PL $:
 def profitloss = GetOpenPL (GetSymbol(), pLType);
 AddLabel(isOwned, 
-    if profitloss < 0 then "P/L: -$" + Round(-1.00 * profitloss, 2) 
-    else if profitloss > 0 then "P/L: +" + AsDollars(profitloss)
-    else "P/L: " + AsDollars(profitloss)
+    if profitloss < 0 then "-$" + Round(-1.00 * profitloss, 2) 
+    else if profitloss > 0 then "+" + AsDollars(profitloss)
+    else AsDollars(profitloss)
 , if profitloss > 0 then Color.UPTICK 
   else if profitloss == 0 then Color.gray 
   else Color.DOWNTICK);
